@@ -1,18 +1,28 @@
 #include <stdio.h>
-/**
-*main - main function
+**
+*main  Entry point
 *
 *Return: 0 (Success)
-*/
+*\
 
 int main(void)
 {
-char i;
+int s = 97, e = 122;
 
-for (i = 'a'; i <= 'z' ; i++)
-putchar(i);
-for (i = 'A'; i <= 'z' ; i++)
-putchar(i);
+while (s <= e)
+{
+putchar(s);
+s++;
+}
+
+s = 65;
+e = 90;
+while (s <= e)
+{
+putchar(s);
+s++;
+}
 putchar('\n');
+
 return (0);
 }
