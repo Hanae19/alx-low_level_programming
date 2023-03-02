@@ -16,8 +16,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
 char *rot13(char *);
 int main(void);
-int n;
-int a[5];
-int *p;
 
 #endif
